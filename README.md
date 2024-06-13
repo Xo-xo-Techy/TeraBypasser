@@ -1,5 +1,6 @@
 # TeraBypasser
-    -DEveloper is Too Lazy To add Below👇🏻
+    -DEveloper is Too Lazy To add Below👇🏻 (https://t.me/fligher)[FLIGHER]
+    
 <i>✨No Mongo Db Support After Restarting You need to add user for special occations</i>
 
-<a href="https://t.me/fligher"><img src="https://images.indianexpress.com/2021/02/Telegram-Logo.jpg" alt="Contact Me"></a>
+<a href="https://t.me/movie_time_botonly"><img src="https://th.bing.com/th/id/OIG4.iV2l1_HaysKkHZXO8DlJ?pid=ImgGn" alt="Contact Me"></a>
