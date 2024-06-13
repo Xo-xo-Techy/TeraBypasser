@@ -1,4 +1,4 @@
-# TeraBypasser
+# TeraBypasser (wait API ISSUE_)
         STAR⭐ IT and then FORK IT
 <h2><a href="https://t.me/fligher">DEveloper</a> is Too Lazy To add Below👇</h2>
     
