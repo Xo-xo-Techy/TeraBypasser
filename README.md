@@ -17,15 +17,16 @@
 
 <h3>Commands</h3>
 <i>
-start - alive\n
-about - me\n
-help - !!\n
-bypass - tera link\n
-aboutme - You\n
-ban_user - [admin]\n
-un_banuser - [admin]\n
-listid - [admin]\n
-bids - [admin]\n
+<ul>
+<li>start - alive</li>
+<li>about - me</li>
+<li>help - !!</li>
+<li>bypass - tera link</li>
+<li>aboutme - You</li>
+<li>ban_user - [admin]</li>
+<li>un_banuser - [admin]</li>
+<li>listid - [admin]</li>
+<li>bids - [admin]</li></ul>
 </i>
 <b>#Note:No Mongo DB</b>
 
