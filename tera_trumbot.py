@@ -62,7 +62,7 @@ trumbot = Client("my_bot", api_id=api_id, api_hash=api_hash, bot_token=bot_token
 authorized_users = [] #add admin_id
 auth = [] #add admin_id
 banned_users=[] #don't add your id 🤣
-RAPIDAPI_KEY = "11eee86599mshbf603b746bfbec8p15b3cfjsn2d5c3a75f0f6" by @fligher don't change it 
+# RAPIDAPI_KEY = "11eee86599mshbf603b746bfbec8p15b3cfjsn2d5c3a75f0f6" by @fligher don't change it 
 
 @trumbot.on_message(filters.command("add") & filters.user(auth))
 async def handle_add_command(client, message: Message):
