@@ -1,5 +1,5 @@
 # TeraBypasser
-        
+        STAR⭐ IT and then FORK IT
 <h2><a href="https://t.me/fligher">DEveloper</a> is Too Lazy To add Below👇</h2>
     
 <i>✨No Mongo Db Support After Restarting You need to add user for special occations</i>
@@ -36,3 +36,6 @@
         <li><h3>TRy VPS</h3></li>
         <li><h3>Try it On render</h3></li>
 </ul>
+
+
+Open Contributors any one can...
