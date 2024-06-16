@@ -66,9 +66,9 @@ banned_users=[] #don't add your id 🤣
 
 @trumbot.on_message(filters.command("add") & filters.user(auth))
 async def handle_add_command(client, message: Message):
-    user_id = message.from_user.id
-    user_mention = message.from_user.mention
-    new_user_id = int(message.text.split()[1])
+  user_id = message.from_user.id
+  user_mention = message.from_user.mention
+  new_user_id = int(message.text.split()[1])
   if new_user_id in authorized_users:
       await message.reply_text("User Already added check here /listid")
   authorized_users.append(new_user_id)
