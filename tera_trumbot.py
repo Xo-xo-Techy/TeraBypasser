@@ -7,6 +7,7 @@ from pyrogram import StopPropagation
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from pyrogram.errors import MessageNotModified
+from web import keep_alive
 import logging
 import asyncio
 from datetime import datetime
@@ -346,4 +347,5 @@ async def rterabox_downloader(client: Client, message: Message):
     except Exception as e:
         pass
 if __name__ == "__main__":
+    keep_alive()
     trumbot.run()
