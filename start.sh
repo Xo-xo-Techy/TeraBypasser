@@ -1,1 +1,1 @@
-python3 trum
+python3 tera_trumbot.py
