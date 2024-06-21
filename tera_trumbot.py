@@ -62,7 +62,7 @@ trumbot = Client("my_bot", api_id=api_id, api_hash=api_hash, bot_token=bot_token
 authorized_users = [] #add admin_id
 auth = [] #add admin_id
 banned_users=[] #don't add your id 🤣
-# RAPIDAPI_KEY = "11eee86599mshbf603b746bfbec8p15b3cfjsn2d5c3a75f0f6" by @fligher don't change it 
+
 
 @trumbot.on_message(filters.command("add") & filters.user(auth))
 async def handle_add_command(client, message: Message):
@@ -304,22 +304,15 @@ async def rterabox_downloader(client: Client, message: Message):
         
     try:
         url = message.text.split(" ",1)[1].strip()
-        response = requests.get(
-            "https://terabox-downloader-tool.p.rapidapi.com/api",
-            headers={
-                "x-rapidapi-key": RAPIDAPI_KEY,
-                "x-rapidapi-host": "terabox-downloader-tool.p.rapidapi.com"
-            },
-            params={"data":url}
-        )
-            
-    
+        response = requests.get(f"https://terabox.udayscriptsx.workers.dev/?url={url}")
     
         response.raise_for_status()  # Raise an exception for bad status codes
-        download_link = response.json()["link"]
-        thumb_p=response.json()["thumb"]
-        si=response.json()["size"]
-        video_title=response.json()["file_name"]
+        data=response.json()
+        resolutions=data["response"][0]["resolutions"]
+        download_link = resolutions["Fast Download"]
+        thumb_p=data["response"][0]["thumbnail"]
+        # si=response.json()["size"]
+        video_title=data["response"][0]["title"]
                 
 
 
