@@ -1,4 +1,4 @@
-# TeraBypasser (woRKinG)
+# TeraBypasser (woRKinG) Support Koyeb,render,okteto
         STAR⭐ IT and then FORK IT
 <h2><a href="https://t.me/fligher">DEveloper</a> is Too Lazy To add Below👇</h2>
     
@@ -34,7 +34,7 @@
 <ul>
        <li><h3 style="color:red">Heroku is not supported Fake Bins<h3></li>
         <li><h3>TRy VPS</h3></li>
-        <li><h3>Try it On render</h3></li>
+        <li><h3>Try it On render and koyeb</h3></li>
 </ul>
 
 
